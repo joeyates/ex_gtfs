@@ -4,12 +4,12 @@ defmodule ExGTFS.MixProject do
   def project do
     [
       app: :ex_gtfs,
-      version: "0.1.0",
-      elixir: "~> 1.17",
-      description: "Parge GTFS files",
+      version: "0.2.0",
+      elixir: "~> 1.14",
+      description: "Parse GTFS files",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      package: package(),
+      package: package()
     ]
   end
 
@@ -21,6 +21,7 @@ defmodule ExGTFS.MixProject do
 
   defp deps do
     [
+      {:csv, ">= 0.0.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end

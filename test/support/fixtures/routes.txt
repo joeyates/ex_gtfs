@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+"1028056267","196-00","445","Arezzo-Sinalunga","3","FFFFFF","000000"
+"2272465657","196-00","446","Arezzo-Stia","3","FFFFFF","000000"
